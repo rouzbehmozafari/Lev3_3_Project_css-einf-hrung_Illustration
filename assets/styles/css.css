@@ -73,7 +73,7 @@ nav li,ul {
 div {
     background-position: right;
     background-size: contain;
-    padding: 10% 0 30% 5% ;
+    padding: 10% 0 10% 5% ;
 }
 /* div article {
     width: 45%;
@@ -85,7 +85,7 @@ div article {
 
 div:nth-child(1) {
     background-image: url('../images/illustration1.gif');
-    padding: 10% 0 30% 5% ;
+    padding: 10% 0 10% 5% ;
 }
 
 /* second part */
@@ -123,6 +123,94 @@ section div:nth-child(3) article {
     padding-left: 0;
 }
 
+
+/* second section with 3 images */
+
+section:nth-child(2), section:nth-child(3)  {
+    text-align: center;     
+}
+section:nth-child(2) article, section:nth-child(3) article ,section:nth-child(4) {
+    padding: 10%  20% 0% 20% ;  
+
+}
+
+section:nth-child(2) img {
+    width: 30%;
+}
+
+section:nth-child(2) div {
+    padding: 0;
+}
+
+/* third section with 6 images */
+
+section:nth-child(3) img {
+    width: 40%;
+    padding-bottom: 3%;
+}
+section:nth-child(3) div {
+    padding-top: 2%;
+    padding-bottom: 0;
+}
+section:nth-child(3) img:nth-child(odd) {
+    margin-right: 3%;
+}
+
+/* last section */
+section:nth-child(4) article{
+    text-align: center;
+}
+/* section:nth-child(4) div * {
+    padding: 0;
+    margin: 0;
+    width: unset;
+} */
+section:nth-child(4) div {
+    text-align: center;
+    background-color: rgb(244, 251, 255);
+    padding: 5% 0;
+    margin: 5% 20vw;
+}
+section:nth-child(4) a {
+    background-color:#24bff2 ;
+    padding: 3% 6%;
+    border-radius: 10px;
+    color: white;
+    font-weight: 300    ;
+}
+section:nth-child(4) p {
+    margin: 0;
+}
+section:nth-child(4) h3 + h1 {
+    margin: 3% auto;
+}
+section:nth-child(4) ul {
+    margin-bottom: 6%;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding-top: 10%;
+}
+
+footer li:nth-child(odd) {
+    color:grey;
+}
+
+footer li {
+    line-height: 150%;
+}
+
+
+
+
+
+
+/* for fun */
+
 h2 {
     visibility: hidden;
     font-size: 40px;
@@ -144,42 +232,3 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-/* Inhalt:
-
-nav: why? / illustration / buy
-absurd illustrations that make sense
-illustrations for applications
-Welcome to my space for experiments! Look at this like a journey we can take together every step of the way, beginning another chapter with each new phase of the project development. And who knows where it will take us?
-examples of use
-Each illustration offers the possibility of limitless interpretations and uses and everyone can give it its own meaning. It depends only on each one's creativity and free spirit.
-download illustrations
-You're free to use these illustrations for both personal and commercial projects. And if you want to make a human happy would be nice to give credits by mentioning this website or be my supporter. I have created a membership plan for people who love my works and wish to support me and receive new artwork regularly.
-
-Inhalt:
-
-membership
-$57
-per year
-No link required
-Unlimited access
-New content regularly
-Colored versions
-PNG format files
-SVG format files
-Premium support
-Become Member
-any absurd suggestions?
-Email
-super@super.de
-Follow me fb/ig/tw/yt
-Assets:
-
- */
