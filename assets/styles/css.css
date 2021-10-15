@@ -43,9 +43,9 @@ article p + a {
     color: white;
 }
 article a+a {
-    background-color: white;
+    background-color: none;
     color: black;
-    border:#F5FBFE 2px solid ;
+    border:#F5FBFE 1px solid ;
     box-shadow: 1px 1px #F5FBFE ;
     margin-left: 1%;
 }
@@ -125,7 +125,13 @@ section div:nth-child(3) article {
 
 
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgray;
+  
+      }
 
+  }
 
 
 
