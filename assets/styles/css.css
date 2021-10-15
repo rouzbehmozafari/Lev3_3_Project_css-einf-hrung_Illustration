@@ -123,12 +123,21 @@ section div:nth-child(3) article {
     padding-left: 0;
 }
 
+h2 {
+    visibility: hidden;
+    font-size: 40px;
+  }
 
 
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightgray;
-  
+      }
+    h2:after {
+        content:'SURPRIZEEE !!!'; 
+        visibility: visible;
+        display: block;
+        color: white;
       }
 
   }
