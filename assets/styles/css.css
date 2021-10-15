@@ -1,0 +1,170 @@
+/* 
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b 
+
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;*/
+
+/* General styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather:wght@300;400;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    background-repeat: no-repeat;
+
+}
+
+body {
+    max-width: 1440px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 190%;
+    margin: 4% auto;
+}
+
+article a {
+    padding: 2.5% 1.5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+article p + a {
+    background-color: black;
+    color: white;
+}
+article a+a {
+    background-color: white;
+    color: black;
+    border:#F5FBFE 2px solid ;
+    box-shadow: 1px 1px #F5FBFE ;
+    margin-left: 1%;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+/* nav */
+
+nav li {
+    display: inline;
+    text-align: right;
+}
+nav ul {
+    text-align: right;
+}
+nav li,ul {
+    padding: 2%;
+}
+
+/* sections */
+
+/* first part */
+div {
+    background-position: right;
+    background-size: contain;
+    padding: 10% 0 30% 5% ;
+}
+/* div article {
+    width: 45%;
+} */
+
+div article {
+    padding-right: 60%;
+}
+
+div:nth-child(1) {
+    background-image: url('../images/illustration1.gif');
+    padding: 10% 0 30% 5% ;
+}
+
+/* second part */
+
+section div + div {
+    background-image: url('../images/illustration2.png');
+    background-position: left;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    background-size: 40%;
+}
+section div + div article {
+    display: inline-block;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 50%;
+}
+
+/* third part */
+
+section div:nth-child(3) {
+    background-image: url('../images/illustration3.png');
+    background-position: right;
+    background-size: 40%;
+    width: 80%;
+    margin: 0% auto;
+    text-align: left;
+    padding: 10% 0;
+}
+section div:nth-child(3) article {
+    display: inline-block;
+    text-align: left;
+    padding-right: 50%;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Inhalt:
+
+nav: why? / illustration / buy
+absurd illustrations that make sense
+illustrations for applications
+Welcome to my space for experiments! Look at this like a journey we can take together every step of the way, beginning another chapter with each new phase of the project development. And who knows where it will take us?
+examples of use
+Each illustration offers the possibility of limitless interpretations and uses and everyone can give it its own meaning. It depends only on each one's creativity and free spirit.
+download illustrations
+You're free to use these illustrations for both personal and commercial projects. And if you want to make a human happy would be nice to give credits by mentioning this website or be my supporter. I have created a membership plan for people who love my works and wish to support me and receive new artwork regularly.
+
+Inhalt:
+
+membership
+$57
+per year
+No link required
+Unlimited access
+New content regularly
+Colored versions
+PNG format files
+SVG format files
+Premium support
+Become Member
+any absurd suggestions?
+Email
+super@super.de
+Follow me fb/ig/tw/yt
+Assets:
+
+ */
