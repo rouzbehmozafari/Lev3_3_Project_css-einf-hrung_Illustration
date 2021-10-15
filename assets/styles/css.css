@@ -36,7 +36,7 @@ p {
 article a {
     padding: 2.5% 1.5%;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 400;
 }
 article p + a {
     background-color: black;
@@ -169,7 +169,8 @@ section:nth-child(4) div {
     text-align: center;
     background-color: rgb(244, 251, 255);
     padding: 5% 0;
-    margin: 5% 20vw;
+    margin: 5% auto;
+    width: 200px;
 }
 section:nth-child(4) a {
     background-color:#24bff2 ;
@@ -186,6 +187,7 @@ section:nth-child(4) h3 + h1 {
 }
 section:nth-child(4) ul {
     margin-bottom: 6%;
+    line-height: 180%;
 }
 
 
@@ -193,7 +195,7 @@ section:nth-child(4) ul {
 
 footer {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 3%;
 }
 
 footer li:nth-child(odd) {
